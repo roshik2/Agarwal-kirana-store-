@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Agarwal Kirana Store</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="images/logo.png" alt="Agarwal Kirana Store">
+                <h1>Agarwal Kirana Store</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="contact.html" class="active">Contact</a></li>
+                </ul>
+                <div class="mobile-menu">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section class="page-header">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>Get in touch for your wholesale needs</p>
+        </div>
+    </section>
+
+    <section class="contact-section">
+        <div class="container">
+            <div class="contact-info">
+                <h3>Our Contact Information</h3>
+                <div class="info-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <p>Main Market, City, State - 123456</p>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-phone"></i>
+                    <p>8740024140 (Vinod Agarwal)</p>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-envelope"></i>
+                    <p>agarwalkirana@example.com</p>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-clock"></i>
+                    <p>Monday-Saturday: 8:00 AM - 8:00 PM<br>Sunday: 10:00 AM - 4:00 PM</p>
+                </div>
+                
+                <h3>Business Inquiry Hours</h3>
+                <p>For wholesale inquiries and bulk orders:<br>
+                10:00 AM - 5:00 PM (Monday to Saturday)</p>
+            </div>
+            
+            <div class="contact-form">
+                <h3>Send Us a Message</h3>
+                <form id="contactForm">
+                    <div class="form-group">
+                        <input type="text" id="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" id="phone" placeholder="Your Phone Number">
+                    </div>
+                    <div class="form-group">
+                        <select id="subject" required>
+                            <option value="">Select Subject</option>
+                            <option value="wholesale">Wholesale Inquiry</option>
+                            <option value="product">Product Inquiry</option>
+                            <option value="delivery">Delivery Inquiry</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" rows="5" placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
+                <div id="formSuccess" class="success-message">
+                    Thank you for your message! We'll get back to you soon.
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="map-section">
+        <div class="container">
+            <h3>Our Location</h3>
+            <div class="map-container">
+                <!-- Replace with actual Google Maps embed code -->
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3502.789530834458!2d77.20985731508241!3d28.61398298242967!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce2a7a6d78e4f%3A0x9a069bfe5c5b1a0!2sMain%20Market%2C%20City!5e0!3m2!1sen!2sin!4v1620000000000!5m2!1sen!2sin" 
+                width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-col">
+                <h3>Agarwal Kirana Store</h3>
+                <p>Wholesale grocery supplier since 1995</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-whatsapp"></i></a>
+                </div>
+            </div>
+            <div class="footer-col">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h3>Contact Info</h3>
+                <p><i class="fas fa-map-marker-alt"></i> Main Market, City</p>
+                <p><i class="fas fa-phone"></i> 8740024140 (Vinod Agarwal)</p>
+                <p><i class="fas fa-envelope"></i> agarwalkirana@example.com</p>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2023 Agarwal Kirana Store. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
